@@ -1,0 +1,8 @@
+<mat-grid-list cols="4" rowHeight="150px">
+    <mat-grid-tile *ngFor="let card of cards">
+      <mat-card>
+        {{ card.rank }} of {{ card.suit }}
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  
